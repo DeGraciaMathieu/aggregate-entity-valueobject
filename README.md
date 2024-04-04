@@ -18,7 +18,8 @@ An entity has methods to manipulate its properties, these intermediary methods a
 A value object is a reusable class that encapsulates non-business logic.
 Its responsibility is to represent a meaningful characteristic and ensure the correctness and relevance of its value. 
 
-## usage
+## Usage
+![](https://github.com/DeGraciaMathieu/aggregate-entity-valueobject/assets/11473997/d9353c77-6363-4788-a358-fcf80bbe35d9)
 ```php
 $budget = new App\Aggregators\Budget();
 
