@@ -19,7 +19,6 @@ A value object is a reusable class that encapsulates non-business logic.
 Its responsibility is to represent a meaningful characteristic and ensure the correctness and relevance of its value. 
 
 ## Usage
-![](https://github.com/DeGraciaMathieu/aggregate-entity-valueobject/assets/11473997/d9353c77-6363-4788-a358-fcf80bbe35d9)
 ```php
 $budget = new App\Aggregators\Budget();
 
@@ -41,3 +40,4 @@ $budget->addTransaction(
 
 $budget->amount();
 ```
+![](https://github.com/DeGraciaMathieu/aggregate-entity-valueobject/assets/11473997/d9353c77-6363-4788-a358-fcf80bbe35d9)
