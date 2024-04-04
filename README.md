@@ -20,21 +20,21 @@ Its responsibility is to represent a meaningful characteristic and ensure the co
 
 ## usage
 ```php
-$budget = new Budget();
+$budget = new App\Aggregators\Budget();
 
 $budget->addTransaction(
-    new Transaction(
-        new Uuid('3a535f13-a832-49c1-9156-4dd67744c197'),
-        new Name(''),
-        new Amount(10),
+    new App\Entities\Transaction(
+        new App\ValuesObjects\Uuid('3a535f13-a832-49c1-9156-4dd67744c197'),
+        new App\ValuesObjects\Name(''),
+        new App\ValuesObjects\Amount(10),
     ),
 );
 
 $budget->addTransaction(
-    new Transaction(
-        new Uuid('a086e8a5-e016-4f84-b888-c918a70809e6'),
-        new Name(''),
-        new Amount(30),
+    new App\Entities\Transaction(
+        new App\ValuesObjects\Uuid('a086e8a5-e016-4f84-b888-c918a70809e6'),
+        new App\ValuesObjects\Name(''),
+        new App\ValuesObjects\Amount(30),
     ),
 );
 
