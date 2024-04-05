@@ -29,6 +29,6 @@ class Name implements ValueObject
      */
     private function guard(string $value): void
     {
-        // check that the uuid is valid
+        // check that the name is valid
     }
 }
