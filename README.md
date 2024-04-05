@@ -6,7 +6,7 @@ Small exercise to differentiate the concepts of aggregate, entity, and value obj
 
 ### Aggregate
 An aggregate represents a business concept (ex: budget).
-It is responsible for containing and ensuring the reliability of the entities it contains (ex: transactions).
+It is responsible for containing and ensuring the reliability of the entities it contains (ex: a budget contains transactions).
 It can also provide entry points to manipulate and interact with its entities (ex: retrieve the amount of transactions).
 
 ### Entity
