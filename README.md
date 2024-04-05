@@ -11,7 +11,7 @@ It can also provide entry points to manipulate and interact with its entities (e
 
 ### Entity
 An entity represents a business concept, similar to aggregates, but on a smaller and individual scale.
-The values of an entity are always value objects to protect against primitive obsession. (ex: Name, Amount ...)
+The values of an entity are always value objects (ex: Name, Amount ...) to protect against primitive obsession.
 An entity has methods to manipulate its properties, these intermediary methods are essential to avoid exposing the internal structure of the object and to respect the Law of Demeter.
 
 ### Value object
